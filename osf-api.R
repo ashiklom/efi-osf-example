@@ -1,9 +1,13 @@
 library(httr)
 
-# This is the URL of your project.
+# This is the URL of your project. Currently, it points to my test project
+# (https://osf.io/xtejp/), but you'll want to replace it accordingly. The node
+# ID is just the part of your project URL immediately after `osf.io`.
 node_id <- "xtejp"
 
-# This is a token file.
+# This is a token file. Follow the instructions here to create a token:
+# https://developer.osf.io/#tag/Authentication
+# Save the string to the `.token` file.
 token <- readLines(".token")
 
 # Test authentication
