@@ -1,0 +1,13 @@
+.DS_Store
+.idea
+*.log
+tmp/
+
+# OSF Auth token
+/.token
+
+# Example files
+/file-01.csv
+/osf-file.csv
+/osf-file-v1.csv
+/osf-file-v2.csv
